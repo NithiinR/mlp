@@ -1,0 +1,15 @@
+name: env
+dependencies:
+  - numpy
+  - pandas
+  - scikit-learn
+  - jupyter
+  - matplotlib
+
+# to create an environment from the .yml file 
+# conda env create --file environment.yml --name env_from_file
+#
+# to create a .yml file to export the environment
+# conda env export --prefix /Users/daniel/Desktop/project_1/env > environment.yml
+
+
